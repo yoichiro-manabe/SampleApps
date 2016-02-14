@@ -7,7 +7,7 @@ namespace SampleApps.Models
         [XmlAttribute("id")]
         public int Id { get; set; }
 
-        [XmlAttribute("name")]
+        [XmlText]
         public string Name { get; set; }
     }
 }
